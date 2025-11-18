@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    background: #f2f6ff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dark {
+    background: #121212;
+    color: white;
+  }
+  
+  .navbar {
+    background: #0073cf;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .nav-left .logo-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .operator {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .nav-right .btn {
+    cursor: pointer;
+    background: #fff;
+    color: #0073cf;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  
+  .nav-right .btn.logout {
+    background: #ff4b5c;
+    color: white;
+  }
+  
+  .nav-right .username {
+    font-weight: bold;
+  }
+  
+  .nav-right .btn:hover {
+    opacity: 0.8;
+  }
+  
+  .container {
+    width: 400px;
+    margin: 60px auto;
+    text-align: center;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background: #0073cf;
+    color: white;
+  }
+  
+  button:hover {
+    background: #005fa8;
+  }
+  
